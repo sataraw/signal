@@ -16,12 +16,17 @@ from dataclasses import asdict
 
 from schemas import PolymarketContract
 
+def retrieve_btc_price_from_binance(start_time: datetime) -> Optional[float]:
+    print(f"JUST FOR TEST USE: Fake BTC price from Binance retrieval for start time: {start_time.isoformat()}")
+    return 62000.0  # Placeholder for actual implementation
 
 def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
 
     question = market.get("question", "")
     # Polymarket uses conditionId for on-chain resolution
     contract_id = market.get("conditionId", market.get("id", ""))
+    start_time_str = datetime.fromisoformat(market.get("startDate").replace('Z', '+00:00'))
+    end_dt = None
     
     # Determine the Bet Type
     q_lower = question.lower()
@@ -31,11 +36,17 @@ def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
         bet_type = "dip"
     elif "reach" in q_lower or "hit" in q_lower:
         bet_type = "reach"
+    elif "up" in q_lower and "down" in q_lower:
+        bet_type = "UpDown"
+        start_time_str = datetime.fromisoformat(market.get("eventStartTime").replace('Z', '+00:00'))
     else:
         bet_type = "above"  # Catch-all for above and up or down TODO: Possible make this more fine grained
         
     # Parse the strike prices
-    s1, s2 = parse_strike_from_id(question=question, bet_type=bet_type)
+    if bet_type == "UpDown":
+        s1, s2 = parse_strike_from_id(question=question, bet_type=bet_type, start_time= start_time_str)
+    else:
+        s1, s2 = parse_strike_from_id(question=question, bet_type=bet_type)
     
     # Map strikes based on the bet type to match the dataclass logic
     strike_low, strike_high = None, None
@@ -52,8 +63,8 @@ def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
     resolution_ts = 0
     if end_date_str:
         try:
-            dt = datetime.fromisoformat(end_date_str.replace('Z', '+00:00'))
-            resolution_ts = int(dt.timestamp())
+            end_dt = datetime.fromisoformat(end_date_str.replace('Z', '+00:00'))
+            resolution_ts = int(end_dt.timestamp())
         except ValueError:
             pass
             
@@ -75,7 +86,8 @@ def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
         strike_low=strike_low,
         strike_high=strike_high,
         resolution_timestamp=resolution_ts,
-        polymarket_price=polymarket_price
+        polymarket_price=polymarket_price,
+        contract_lifetime=(start_time_str, end_dt)
     )
 
     return contract
@@ -186,12 +198,12 @@ def get_btc_contracts() -> list[PolymarketContract]:
         params["offset"] += params["limit"]
     
     with open("valid_btc_markets.json", "w") as f:
-        json.dump([asdict(contract) for contract in valid_contracts], f, indent=2)
+        json.dump([asdict(contract) for contract in valid_contracts], f, indent=2, default=str)
 
     return valid_contracts
 
 
-def parse_strike_from_id(question: str, bet_type: str) -> tuple[Optional[float], Optional[float]]:
+def parse_strike_from_id(question: str, bet_type: str, start_time: Optional[datetime] = None) -> tuple[Optional[float], Optional[float]]:
     """Extract strike(s) from contract ID. (strike, None) for above/reach/dip,
     (low, high) for range, (None, None) on failure."""
     """Extract strike(s) from the market question string using regex."""
@@ -215,7 +227,12 @@ def parse_strike_from_id(question: str, bet_type: str) -> tuple[Optional[float],
         match = re.search(r'between\s+\$?([\d\.]+)([kKmMbB]?)\s+and\s+\$?([\d\.]+)([kKmMbB]?)', clean_q, re.IGNORECASE)
         if match:
             return to_float(match.group(1), match.group(2)), to_float(match.group(3), match.group(4))
-            
+    elif bet_type == "UpDown":
+        # Matches: "up" and "down" keywords
+        if start_time is not None:
+            return retrieve_btc_price_from_binance(start_time), None
+        else:
+            return None, None 
     else:
         # Matches: "above $68000", "reach $80000", "dip to 25000", "greater than $74000", "hit $150k"
         pat = r'(?:above|reach|dip to|hit|greater than|less than)\s+\$?([\d\.]+)([kKmMbB]?)'
