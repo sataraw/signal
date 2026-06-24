@@ -1,0 +1,2351 @@
+[
+  {
+    "contract_id": "0x9d3586564d484587c86bc05cb2492ecfd2832b217bf8a7b4e922f8de8dd0547e",
+    "question": "Will the price of Bitcoin be above $68,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 68000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.0195
+  },
+  {
+    "contract_id": "0x975de90fd4e84bb18029213081bd8c8808f72d0a295468cdf567712a4c68a167",
+    "question": "Will the price of Bitcoin be above $66,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 66000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0055
+  },
+  {
+    "contract_id": "0x28799fda784f6b7f9e838c80d03389973167f102fd1db3f4efb5af6ea19b32ad",
+    "question": "Will Bitcoin reach $80,000 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 80000.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0045
+  },
+  {
+    "contract_id": "0xfc0490cc0eace4457825121fd4d88dc1687d3cde4f2df9fd0c4bf6a7565c6c16",
+    "question": "Will the price of Bitcoin be greater than $74,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 74000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.018
+  },
+  {
+    "contract_id": "0x74810750fe618c59e095eda6ec7c7a34970f1ac6df05a4d959c5675a3e89165a",
+    "question": "Will the price of Bitcoin be above $70,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 70000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.006
+  },
+  {
+    "contract_id": "0xb890dc8cda5a08cad14d634513f74c619663b0e0822279c87e4e4fcd9fb0e5af",
+    "question": "Bitcoin Up or Down - June 24, 4:00AM-8:00AM ET",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782302400,
+    "polymarket_price": 0.5
+  },
+  {
+    "contract_id": "0x4bd2d6744cfb40bd33520963069947643140e9facccec0b44d1e61944aa96997",
+    "question": "Will China unban Bitcoin by 2027?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798675200,
+    "polymarket_price": 0.0325
+  },
+  {
+    "contract_id": "0xa7b594ae07d5c1590fa86028fcc2f8705990437237416556c05837a08b2e1cda",
+    "question": "Will Bitcoin reach $150,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 150000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.041
+  },
+  {
+    "contract_id": "0x7d6cd9cf2a286935a9937b5fd8989bc43a5bf65ca6843db38881ad6693e65bd1",
+    "question": "Bitcoin Up or Down - June 23, 8:30PM-8:35PM ET",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782261300,
+    "polymarket_price": 0.565
+  },
+  {
+    "contract_id": "0xe576b5a6fc6cbff0486c8d270c3377112cb3f53422774ca7580446c10a770abd",
+    "question": "Will the price of Bitcoin be between $58,000 and $60,000 on June 29?",
+    "bet_type": "range",
+    "strike_low": 58000.0,
+    "strike_high": 60000.0,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.1025
+  },
+  {
+    "contract_id": "0xf9b6b5c3c6e07afe4aad6ed9ce4fa7545f9c2baa9f1dc632cd81a085c99acfe4",
+    "question": "Will Bitcoin reach $120,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 120000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.075
+  },
+  {
+    "contract_id": "0xe09899ee0e4297ea2d7f93a37543a0be2aff4f61a5d503f66e895cd12edb86d0",
+    "question": "Will the price of Bitcoin be between $72,000 and $74,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 72000.0,
+    "strike_high": 74000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.0185
+  },
+  {
+    "contract_id": "0xe326d1abf5fb59b82ecfdff3348e75f90561eace327ba1bdc8d38d045ddbe775",
+    "question": "Will Bitcoin dip to $25,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 25000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.085
+  },
+  {
+    "contract_id": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2",
+    "question": "Will Bitcoin dip to $40,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 40000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.29
+  },
+  {
+    "contract_id": "0x59cbdc98e569c31d3c33517131aa57a0a8d28e412df4a567d7df5b3ae9ec3de8",
+    "question": "Will El Salvador hold $1b+ of BTC by December 31, 2026?",
+    "bet_type": "above",
+    "strike_low": 1000000000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.195
+  },
+  {
+    "contract_id": "0xa462b39a59f656b5292f3881cbb9e1b157c454f479d3131ee497a2355713f63f",
+    "question": "Will the price of Bitcoin be above $72,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 72000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.0045
+  },
+  {
+    "contract_id": "0x715bb1d8596e09533b548ade7e6fd6f9afdb6522934b0def340124a9929e7055",
+    "question": "Bitcoin above 60,600 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 60600.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.88
+  },
+  {
+    "contract_id": "0xce2d9ee8db50929ce29861e1a13bbc75283af7d2e572ac65c3e52deb7185d4a6",
+    "question": "Will Bitcoin reach $74,000 June 22-28?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 74000.0,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.011
+  },
+  {
+    "contract_id": "0xf0a4c0bc8a8162f0ac95b5a5af7fa665d20a19ca0db03b9117514dafc695f15e",
+    "question": "Will Bitcoin reach $140,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 140000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0555
+  },
+  {
+    "contract_id": "0x2e539df5355cdb2ea8340beb000a0c6689957e1bb58f748abd18b4c7485a363a",
+    "question": "Will Bitcoin reach $77,500 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 77500.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.005
+  },
+  {
+    "contract_id": "0x6cebc1cb52f399904e99214e23a07644cfbc6cbbb557ebc60bed4371cee6562b",
+    "question": "Will the price of Bitcoin be between $66,000 and $68,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 66000.0,
+    "strike_high": 68000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.075
+  },
+  {
+    "contract_id": "0xc897b7f305518ff9f2ce723924bbdae28a713c3325bd79f457b30e172d83c3df",
+    "question": "Will the price of Bitcoin be less than $54,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.0195
+  },
+  {
+    "contract_id": "0x8403c684e08b1a9534865443658e4a8f4201b534b234222b4f3c4d855b1570b7",
+    "question": "Will the price of Bitcoin be greater than $72,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 72000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.0195
+  },
+  {
+    "contract_id": "0x8b51bfa530d9e9e87abd237ec5f0e61a6e9e67905a1948ee3321fa9913cbfa53",
+    "question": "Will the price of Bitcoin be between $62,000 and $64,000 on June 29?",
+    "bet_type": "range",
+    "strike_low": 62000.0,
+    "strike_high": 64000.0,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.265
+  },
+  {
+    "contract_id": "0xa841ecd1d447695cf5d56bed9bb6437015ad44f9532b57ee1dd15515147e19ba",
+    "question": "Will Bitcoin dip to $57,000 on June 23?",
+    "bet_type": "dip",
+    "strike_low": 57000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x341675660a3846854454411b7cbe9989238b1e1f0c8c933dc852c9bd7ba5b31f",
+    "question": "Will the Bitcoin Volatility Index dip to 25 by June 30?",
+    "bet_type": "dip",
+    "strike_low": 25.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.006
+  },
+  {
+    "contract_id": "0x709ed499c15d92cde4961f484b5c3b0f03c6b850e6fb1cb553a7a8029a4f0003",
+    "question": "Will the price of Bitcoin be between $68,000 and $70,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 68000.0,
+    "strike_high": 70000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.0095
+  },
+  {
+    "contract_id": "0xa1732e030cd7fc3c29568f35343fe0f96f85e64adc6f7ed860a33eefe6275841",
+    "question": "Will the price of Bitcoin be above $56,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.988
+  },
+  {
+    "contract_id": "0x80660a8323cbf1d778c95bd1e4ae1676fc16fd976c09a6315480e8ee8a2c98f9",
+    "question": "Will the price of Bitcoin be between $56,000 and $58,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 56000.0,
+    "strike_high": 58000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.026
+  },
+  {
+    "contract_id": "0x6123b5cc75c38ba9783f6c8ea260107b546c7d3454a8f9b5280c9921cc39f3d9",
+    "question": "Bitcoin all time high by September 30, 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1790830800,
+    "polymarket_price": 0.018
+  },
+  {
+    "contract_id": "0xbba3498796ad36eaaaa28a383b801cb3782605c0bca8bc1d75e57f2fcc8bb501",
+    "question": "Will the Bitcoin Volatility Index dip to 30 by June 30?",
+    "bet_type": "dip",
+    "strike_low": 30.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0115
+  },
+  {
+    "contract_id": "0x7edfbfd3c1f0fa513474ecc0d1f33ae511d8703d6f8743d80921a0060d18aa72",
+    "question": "Will the price of Bitcoin be between $72,000 and $74,000 on June 24?",
+    "bet_type": "range",
+    "strike_low": 72000.0,
+    "strike_high": 74000.0,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x7fd0b634af9e234893805f2536fa93736ac17b126880850ed0fb7c8f4a2a764a",
+    "question": "Will the price of Bitcoin be between $58,000 and $60,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 58000.0,
+    "strike_high": 60000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.114
+  },
+  {
+    "contract_id": "0x6c9c08ef3e75228ab55c82b6f68d595572732df04390df8f6a778ae20091a25b",
+    "question": "Bitcoin Up or Down - June 24, 12:00AM-4:00AM ET",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782288000,
+    "polymarket_price": 0.485
+  },
+  {
+    "contract_id": "0xe3b6d73cf8e160c796d91013e051198fc9da2bf964b9dc5b700bbab368b00dea",
+    "question": "Will the price of Bitcoin be above $58,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.995
+  },
+  {
+    "contract_id": "0x437897fca4fc47ebf980cabdbdbb27f9ce845375549dad958a2ddb106d9cb06d",
+    "question": "Will the price of Bitcoin be above $64,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 64000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.345
+  },
+  {
+    "contract_id": "0x4a2bd29cd9379a3774e362e127d14eb48415cd6f44bfc02a24a8511361ff388c",
+    "question": "Will the price of Bitcoin be above $56,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.971
+  },
+  {
+    "contract_id": "0xd6798b7a0c8b65614c6ef094216fb012f58f4740554426bed80e9cec114a3d76",
+    "question": "Will the price of Bitcoin be above $64,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 64000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.115
+  },
+  {
+    "contract_id": "0x6152f5e9f41de7b83d31cb0ced815014df4aec6d28eb4f602cfbc1aaaf2fbb51",
+    "question": "Will Bitcoin reach $76,000 June 22-28?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 76000.0,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.0015
+  },
+  {
+    "contract_id": "0x3d3355ae4e86b4b476dc89211c30a05cd0dd3f9dd276ecee16c1c26ae04fef6b",
+    "question": "Will the price of Bitcoin be above $76,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 76000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x89d1502be6b599035b15334ae9fd7f3ca921ee4d735239f748ec8272e4c444fa",
+    "question": "Will the price of Bitcoin be above $62,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 62000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.8215
+  },
+  {
+    "contract_id": "0x685bf6393753ae8448c1f20d1e3e081997bfe88556c66b0de7aac43d3c1d5620",
+    "question": "Will the price of Bitcoin be between $64,000 and $66,000 on June 24?",
+    "bet_type": "range",
+    "strike_low": 64000.0,
+    "strike_high": 66000.0,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.115
+  },
+  {
+    "contract_id": "0x5bc08f4e809a4aa6f18732ca1dcbf4147c354f097f0eb01f5f8efc908c6f3dcb",
+    "question": "Will the price of Bitcoin be between $62,000 and $64,000 on June 24?",
+    "bet_type": "range",
+    "strike_low": 62000.0,
+    "strike_high": 64000.0,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.695
+  },
+  {
+    "contract_id": "0xdeb355411fb4d8052971cc1a07c9d2a2b32fe70bbbc2de4e0f19a0bd894d91b9",
+    "question": "Will Bitcoin reach $67,000 on June 23?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 67000.0,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.001
+  },
+  {
+    "contract_id": "0x032239ad00d4549e33616588129286485c9744108de196f0535a6f5ba9f08eb3",
+    "question": "Will July be the best month for Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.105
+  },
+  {
+    "contract_id": "0x0faf76440a116c59fad5d43b5859fcaa7bf17b18e0f1175fb021b2507fc36ed6",
+    "question": "Bitcoin more valuable than any company before 2027?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798675200,
+    "polymarket_price": 0.1175
+  },
+  {
+    "contract_id": "0x181ddd17ea69696baea2892ae68259c5d98c913619fbf841bfbb7f0aa1718c42",
+    "question": "Will August be the best month for Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.115
+  },
+  {
+    "contract_id": "0xd8a5843555ba95455a28d895660c07c59b615184bf4ae64893992f3504797d29",
+    "question": "Will Bitcoin dip to $10,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 10000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0285
+  },
+  {
+    "contract_id": "0x7ca3003e4b76d372b9fba916a9c22bc7d2aeb15567d6c6a930e008ff8ab265e8",
+    "question": "Will Bitcoin reach $78,000 June 22-28?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 78000.0,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.0015
+  },
+  {
+    "contract_id": "0x33954bc9d9d882b57687fc98a1c9721f369e44c09e8a1e01b859dec8583ac053",
+    "question": "Will September be the best month for Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.125
+  },
+  {
+    "contract_id": "0xe681a6326237f3b17ce8622728b6cd104281dfe4d2b38f4520fd7f1734cf3469",
+    "question": "Will Bitcoin dip to $5,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 5000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0225
+  },
+  {
+    "contract_id": "0x99544bd8ae69a819989b82419f5d5eca744903fe34405900e5ca2744083aa6bd",
+    "question": "Will Bitcoin dip to $54,000 June 22-28?",
+    "bet_type": "dip",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.028
+  },
+  {
+    "contract_id": "0x9bfe6966da5da12dc39dec67b22375fd5bf21f3c6e9cbaae28d926708eac222f",
+    "question": "Will Bitcoin reach $85,000 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 85000.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0015
+  },
+  {
+    "contract_id": "0xb0b9aaf2b242fa0a9b5e2f9617f1e8a5f8c3e1ea8d84948fd3c87e76d570e8ed",
+    "question": "Will the price of Bitcoin be above $64,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 64000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.275
+  },
+  {
+    "contract_id": "0xd909aea85c7897a9f11dce1ca4f60d339c5cd64fd2a4fcb1a37e2ee291c708f1",
+    "question": "Will the price of Bitcoin be between $66,000 and $68,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 66000.0,
+    "strike_high": 68000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.0215
+  },
+  {
+    "contract_id": "0xe71b9d788ce662d967ff2c90749ff8b26cee290455ef6cb84f33d1393ffae115",
+    "question": "Will Bitcoin reach $190,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 190000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0175
+  },
+  {
+    "contract_id": "0x36471b8753cb4b4fb152f13594970e3f85e5f1ea61781e032d1492ac82bf5dd1",
+    "question": "Will the price of Bitcoin be above $54,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.9875
+  },
+  {
+    "contract_id": "0x326349ee0139d76ea3925be6e12d842e963f577d6f9062b3684055327cbdb8fa",
+    "question": "Will the price of Bitcoin be above $54,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.99
+  },
+  {
+    "contract_id": "0x4c6661e028011f78e0b273b1e209a52e3626fa35e17ba96555d506bf4e8a6183",
+    "question": "Will Bitcoin reach $69,000 on June 23?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 69000.0,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0xccc51cccefaae9546754ac4785db8fa14e617573d86da599c0ac8f36850eae9f",
+    "question": "Will Bitcoin reach $90,000 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 90000.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x6ffbe029bb44914c0413984abb54254f9dc84a259de4a1bd33e9e8f522c2e1dc",
+    "question": "Will the price of Bitcoin be above $60,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.9555
+  },
+  {
+    "contract_id": "0x7f6b74560c2a556cc6b333deef068014c36126b0d5e8413a479719c36e3b71cc",
+    "question": "Bitcoin Up or Down - June 23, 9PM ET",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782266400,
+    "polymarket_price": 0.495
+  },
+  {
+    "contract_id": "0x4ee7252af80d26033ed6e5217b68bf89162d54e1f18b2d6514fed99755593897",
+    "question": "Will the price of Bitcoin be between $72,000 and $74,000 on June 29?",
+    "bet_type": "range",
+    "strike_low": 72000.0,
+    "strike_high": 74000.0,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.014
+  },
+  {
+    "contract_id": "0x6122f0e541331c3324121a6377d6dbd898d4b472b1840ddaab570ed607477744",
+    "question": "Will Bitcoin reach $87,500 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 87500.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x1d7c857ebb5fe4238e11425fd6c936b99450abdd4321dbe38ced8622eac1e501",
+    "question": "Will the price of Bitcoin be above $62,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 62000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.615
+  },
+  {
+    "contract_id": "0x92583a1f4db192ecdf9744b7b05304470937c50427f56092b93b9a107f7f739a",
+    "question": "Will the price of Bitcoin be between $60,000 and $62,000 on June 29?",
+    "bet_type": "range",
+    "strike_low": 60000.0,
+    "strike_high": 62000.0,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.225
+  },
+  {
+    "contract_id": "0xf4f851f1e73d0bc385bfb207665ffa04d49fc05da58d5d413cbc62bdaf324a66",
+    "question": "Will the price of Bitcoin be above $70,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 70000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.0125
+  },
+  {
+    "contract_id": "0x627d647eb8f4983035324c491e053cd601704bd0fb6bc210f4f24325cf8d9348",
+    "question": "Will the price of Bitcoin be above $74,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 74000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.0055
+  },
+  {
+    "contract_id": "0x903a1387e6414be5529efc8f7757e30371e6698de9d68fa4ce33252009db69ef",
+    "question": "Will Bitcoin dip to $30,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 30000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.135
+  },
+  {
+    "contract_id": "0x7ef130691eb098525e4d67953a89846e5f9677701c25d176580ce3ede72a24ed",
+    "question": "MicroStrategy announces >1000 BTC purchase June 23-29?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782792000,
+    "polymarket_price": 0.4
+  },
+  {
+    "contract_id": "0xabbcf4b109800ea512cbe08aa5efe734131855da2847fcb497d763778de4f654",
+    "question": "Will a new country buy Bitcoin by June 30, 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782777600,
+    "polymarket_price": 0.14
+  },
+  {
+    "contract_id": "0x472c9035786b390c08e674fc60bddda488957e1b8aecad3f5480cc531a0754b0",
+    "question": "Will Bitcoin reach $160,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 160000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.033
+  },
+  {
+    "contract_id": "0x6fefc0438c7598b23531457c8c60541990d0786bd4bd9dfc3eabc8d95c291092",
+    "question": "Will Bitcoin reach $250,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 250000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0145
+  },
+  {
+    "contract_id": "0xc3c410d20641575d5e87f5cf03d83e6ea6d681d0ca9b4c409653d50eb7127dc2",
+    "question": "Will Bitcoin reach $82,500 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 82500.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0025
+  },
+  {
+    "contract_id": "0x2f50e14939ceb139ef02a4ecb68b52c6d6ce46e505c21ec82e2d90c6dc54186f",
+    "question": "Will the price of Bitcoin be between $56,000 and $58,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 56000.0,
+    "strike_high": 58000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.0055
+  },
+  {
+    "contract_id": "0xac2ab7569625a41ef15b15b66a3346af57717c8417b5182e0f98b1679cd054eb",
+    "question": "Will the price of Bitcoin be above $74,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 74000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x6fcb9f02c4e4c02d9e322378b52f1d9a7ae557443456dd02954f776e5c1734b0",
+    "question": "Will the price of Bitcoin be between $54,000 and $56,000 on June 30?",
+    "bet_type": "range",
+    "strike_low": 54000.0,
+    "strike_high": 56000.0,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.0205
+  },
+  {
+    "contract_id": "0x42c5649840143e7c8801c687a637114df890f80b2136a0de9e9bdf543196108f",
+    "question": "Bitcoin above 60,800 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 60800.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.88
+  },
+  {
+    "contract_id": "0xe8cc53b1e348258de753f8e725b5b2ad177caea0955d92edfc02e931d805fceb",
+    "question": "Bitcoin above 61,000 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 61000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.88
+  },
+  {
+    "contract_id": "0x64532a710d34602cf5f6629b88462923988dfe3f7287b62656b89bd866ad4602",
+    "question": "Bitcoin above 61,200 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 61200.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.88
+  },
+  {
+    "contract_id": "0xa0ea38d97ce3c176001985fbb56c8e6aca62c3d25978a68f34a2e77c00d14537",
+    "question": "Bitcoin above 61,400 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 61400.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.88
+  },
+  {
+    "contract_id": "0x9e18a7b6dcab989b264badd38cbaad4fd03a5c04bc8026174f8887a0be665e37",
+    "question": "Bitcoin above 61,800 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 61800.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.9745
+  },
+  {
+    "contract_id": "0xc242c7affdcc2d691c3b27f618cdd5408ecf69c0d666a39e5ca96acf8b930faa",
+    "question": "Bitcoin above 62,000 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 62000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.9845
+  },
+  {
+    "contract_id": "0x146704aeadc04222864a179d877f83c25b2008eec0ed957a9ac0a3319e38ac6c",
+    "question": "Bitcoin above 63,400 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 63400.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.0055
+  },
+  {
+    "contract_id": "0x41ade3fc3dfc330f9109d18f62d61f3125f311aeb243e4b59a46d0bdee153f60",
+    "question": "Bitcoin above 63,600 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 63600.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.0255
+  },
+  {
+    "contract_id": "0x7709fd2f82b54081fef2084aa9cc02e79e195a2af9ef6170f81fb2a63d893340",
+    "question": "Bitcoin above 63,800 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 63800.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.025
+  },
+  {
+    "contract_id": "0x784d68ce05efe5370a1a4597b709f1a7d4bbd92b79112c9f1cb0b1ee99dfe950",
+    "question": "Will the price of Bitcoin be above $64,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 64000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.36
+  },
+  {
+    "contract_id": "0x12cb9d302beb254d86631f555006f4a31b6c221d40dc08b7f6b5df969df975e0",
+    "question": "Will the price of Bitcoin be above $60,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.905
+  },
+  {
+    "contract_id": "0xb3de936d23dd2986c518ad59d5d4913670a64b54b775e517f9461da81fc0e33d",
+    "question": "Bitcoin Up or Down - June 23, 8:30PM-8:45PM ET",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782261900,
+    "polymarket_price": 0.515
+  },
+  {
+    "contract_id": "0xa885bfe10688056a9d0f4e9a1523bfa18f66fda065f0400d714ba54776083713",
+    "question": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 15000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0405
+  },
+  {
+    "contract_id": "0xd8b5563bdecd4e530de9b9247cb0eb96dd6308b01b8bd1f5ea216a54debc1c4d",
+    "question": "Will the price of Bitcoin be above $54,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.994
+  },
+  {
+    "contract_id": "0x799c35de1e5f3ebd75053643e020e6df9e9a3f477e3d6066eb0a8565f65d547f",
+    "question": "Will Bitcoin reach $180,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 180000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0185
+  },
+  {
+    "contract_id": "0x1f62ab64aece297498f673af882f4dfd0f9833bd3bdf9facb6cd816be2d74083",
+    "question": "Will the price of Bitcoin be above $66,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 66000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.115
+  },
+  {
+    "contract_id": "0xa9b0071d974619836e0e79d66045ea381bee9b787b06f8391fd9c6d85ff117f4",
+    "question": "Will the price of Bitcoin be above $66,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 66000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.135
+  },
+  {
+    "contract_id": "0xebf17209dbfd9ed48141ca70b95b515cad6b83e69dfb8af2efcaf435f42a9fc0",
+    "question": "Will the price of Bitcoin be above $64,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 64000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.325
+  },
+  {
+    "contract_id": "0xc9a74ff20d789d9e2956191c75905a981a93906227d7e0e333ec4810ea6037cc",
+    "question": "Will the price of Bitcoin be above $70,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 70000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x953b1439569eef0a0e639566acd35d32ebadee8ab70dbb2f8e00bb936a277aa2",
+    "question": "US national Bitcoin reserve before 2027?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798675200,
+    "polymarket_price": 0.235
+  },
+  {
+    "contract_id": "0x7fcb9e4af2709a1f376c95a969d2463b104f4b979759dbaead46f0405d74adff",
+    "question": "Will knots flip bitcoin core before 2027?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.4185
+  },
+  {
+    "contract_id": "0x87978f2a040b970b559016d1be80bc6c8a080b971794ecc94aa692122044d64b",
+    "question": "Will Bitcoin dip to $61,000 on June 23?",
+    "bet_type": "dip",
+    "strike_low": 61000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0165
+  },
+  {
+    "contract_id": "0xb5e95cecd39975d5c3681a8e8c1c248bb0d7bd2b0f9a7d6772c8a9a79753e99c",
+    "question": "Will the price of Bitcoin be above $58,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.945
+  },
+  {
+    "contract_id": "0x405fd227c458572dac9c2b57afc9776693d8e1005f2c7924634ee9f7040e5b8d",
+    "question": "Will the price of Bitcoin be above $72,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 72000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.009
+  },
+  {
+    "contract_id": "0xe439926a6f551dc2faec7622989096d949ff0bd93a260eea325a22307e268677",
+    "question": "Will the price of Bitcoin be above $72,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 72000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x6f8263712dd5d445a99f3cc161be8b605d71c6f90e0e3be46889a5cab255aee6",
+    "question": "Will Bitcoin reach $92,500 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 92500.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.002
+  },
+  {
+    "contract_id": "0xed2028bf7e79e39a78eb1f02d3d44abfe0df73d6e2c40d0d3e4fed7fea8c9e92",
+    "question": "Will the price of Bitcoin be between $58,000 and $60,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 58000.0,
+    "strike_high": 60000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.0375
+  },
+  {
+    "contract_id": "0x23fb92bb72604ff35bfe591b5506de47f1bf6632ed55c388baa4843118bf69fc",
+    "question": "Will Bitcoin dip to $20,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 20000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.045
+  },
+  {
+    "contract_id": "0xdcae9573d5680a2c958cca4676ed28df7a06861572124f3396cc60ab6b92b9c2",
+    "question": "Will Bitcoin outperform Gold in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.28
+  },
+  {
+    "contract_id": "0xb276435811dc77171602f790db2b5900e780adfadb7cff57e547d58fb1a8215f",
+    "question": "Will Bitcoin have the best performance in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798675200,
+    "polymarket_price": 0.155
+  },
+  {
+    "contract_id": "0x9e2688d224c0ce29c93eb76312d4b1481114cb204b06d9f8b10ed95c9d8b2f09",
+    "question": "Will Bitcoin dip to $60,000 June 22-28?",
+    "bet_type": "dip",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.28
+  },
+  {
+    "contract_id": "0xd43c9c228eb1062ec6bd4881f42e514dd7b642d34f596bd68e4741ecd8aa7ea5",
+    "question": "Will the price of Bitcoin be between $68,000 and $70,000 on June 24?",
+    "bet_type": "range",
+    "strike_low": 68000.0,
+    "strike_high": 70000.0,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.001
+  },
+  {
+    "contract_id": "0x45391d0ebc4324d087a267923c246d61307d08e064544d096eeed2adbc396d9a",
+    "question": "Will the price of Bitcoin be between $54,000 and $56,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 54000.0,
+    "strike_high": 56000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.006
+  },
+  {
+    "contract_id": "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c",
+    "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 55000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.745
+  },
+  {
+    "contract_id": "0xa1dff21769905b07b589a1d0e838ac8ba046767f713add3aebd7c2a2184827e5",
+    "question": "Will the price of Bitcoin be above $60,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.835
+  },
+  {
+    "contract_id": "0x8a9a52fef8509d43840bdae44c19586a097a2554af25844d107fb7220abf8041",
+    "question": "Will Bitcoin reach $70,000 on June 23?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 70000.0,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0xb8d8c45514f0dd37f0b747d5c45bfeadf9abc4cd821b408537708c9fc3b0c297",
+    "question": "Will the price of Bitcoin be between $60,000 and $62,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 60000.0,
+    "strike_high": 62000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.235
+  },
+  {
+    "contract_id": "0x3b0107a80edd066fe987784d7ab5963c177888433efbec10689951c17320606c",
+    "question": "Will Satoshi move any Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0705
+  },
+  {
+    "contract_id": "0xc8ea375cf59b72aa7446857bf62d1c20496c5d7d3d86a090572b936174135e39",
+    "question": "Will the price of Bitcoin be above $74,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 74000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.005
+  },
+  {
+    "contract_id": "0xaf2792a5fc2881b9ea9b8bbecf4089a547b883b4e7cf8a4f0ea50b3e0b4a241d",
+    "question": "Will the price of Bitcoin be above $58,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.957
+  },
+  {
+    "contract_id": "0x8d3d094980d4cddafc6c0b217e0d24501e22d07249e34c7f337d7da65ef440cd",
+    "question": "Will the price of Bitcoin be between $62,000 and $64,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 62000.0,
+    "strike_high": 64000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.315
+  },
+  {
+    "contract_id": "0xa157e53c8320fcd217eaa4ae32e1af69baa8a4268e8143b61961238f21a747d6",
+    "question": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.9
+  },
+  {
+    "contract_id": "0x1dca2c4f2fcbc3999cac64743dfc02c75f0ac5220f1a17764e54d90b32cd9ac2",
+    "question": "Will Bitcoin reach $66,000 June 22-28?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 66000.0,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.195
+  },
+  {
+    "contract_id": "0xc0da9cd9916f344691d837133b82fced03aeac010ca2022f7b832b24749c9148",
+    "question": "Will the price of Bitcoin be less than $56,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.0135
+  },
+  {
+    "contract_id": "0x3141fa1b41e22efe34ac463cbce101e2366379bc874959761794ee68c9153ff6",
+    "question": "Will the price of Bitcoin be between $66,000 and $68,000 on June 24?",
+    "bet_type": "range",
+    "strike_low": 66000.0,
+    "strike_high": 68000.0,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.006
+  },
+  {
+    "contract_id": "0x7b9072e6a9cdcf022c4f098564e8ee612d544e179e4a33dcc2790fbaa778daa8",
+    "question": "Will Bitcoin reach $70,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 70000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.76
+  },
+  {
+    "contract_id": "0x9f00c2abf2bcbdd45a18af6a466e5ac4ece3168b4f5c320e7ab605e3ac9a52de",
+    "question": "Will the price of Bitcoin be between $56,000 and $58,000 on June 24?",
+    "bet_type": "range",
+    "strike_low": 56000.0,
+    "strike_high": 58000.0,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0055
+  },
+  {
+    "contract_id": "0xa41b6395f79d4e0523479e6a2ea289202d3083a2664fda40ee261cfb42229b7b",
+    "question": "Will the price of Bitcoin be between $58,000 and $60,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 58000.0,
+    "strike_high": 60000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.1065
+  },
+  {
+    "contract_id": "0x9affeb38bce1e9a6de30e9ecada1ecfaf636574d3961cf3b9177299786214234",
+    "question": "Will Bitcoin reach $170,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 170000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.025
+  },
+  {
+    "contract_id": "0x0131b7bba35629ad69af519c55379346a47fa84a67df2b446a8df452e3f1a1af",
+    "question": "Will the price of Bitcoin be above $58,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.966
+  },
+  {
+    "contract_id": "0xaabaf57670d2520fceeee7c586e35b32f565bb0dcccf09e3bb494f22877fbbb0",
+    "question": "Will the price of Bitcoin be less than $56,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.0125
+  },
+  {
+    "contract_id": "0xcccbc0d6962389ab299496edeab08b4e3f3e84e4e5e25bf6c1b1224b0e5d8b4b",
+    "question": "Will the price of Bitcoin be above $58,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.9905
+  },
+  {
+    "contract_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+    "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 45000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.455
+  },
+  {
+    "contract_id": "0x2e7e5e0e70720fe21ac3b37cb1e7e8056762d87f38d85722ed2c2733d7a1be19",
+    "question": "Will the price of Bitcoin be less than $54,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.001
+  },
+  {
+    "contract_id": "0x32f5e88162b712d8a1706451b4b52832193b2e961fe49095f873bbf44e492229",
+    "question": "Will Bitcoin reach $100,000 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 100000.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0025
+  },
+  {
+    "contract_id": "0x3d08dbf80663bcdf2f921b2297a50b926c2ada6254ef4913fa94e9efb6138d23",
+    "question": "Will Bitcoin dip to $60,000 on June 23?",
+    "bet_type": "dip",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0065
+  },
+  {
+    "contract_id": "0xacec7e5b90ccb1ac4c950e3aff18156d6ce1bb7b0c87c001a281279412dca784",
+    "question": "Will Bitcoin reach $95,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 95000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.185
+  },
+  {
+    "contract_id": "0x6e89e3c0c997f42a0bcb7820cd7d083d44ef1d2d3dcd2dbf6798f8cd2d467db3",
+    "question": "Will the price of Bitcoin be between $64,000 and $66,000 on June 29?",
+    "bet_type": "range",
+    "strike_low": 64000.0,
+    "strike_high": 66000.0,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.21
+  },
+  {
+    "contract_id": "0xa841d48f7274b74fdce6a1905a82ccbfe2d60162056a372929ea504c7a241e2a",
+    "question": "Will the price of Bitcoin be above $54,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.992
+  },
+  {
+    "contract_id": "0xabb5c726a1f734bbabb8fc6ab3c3b84fde515e6e7ea1ad14918eb9b6b3685d72",
+    "question": "Will Bitcoin reach $68,000 on June 23?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 68000.0,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0xc0d856d9b4743bbb53ec5ef34489866cce2dc2e2edd160d3722d16fced331f39",
+    "question": "Bitcoin BIP-360 implemented in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.135
+  },
+  {
+    "contract_id": "0x337ed4a919995ef9ba9d705b319055633a5dfdcb3ab97cf610009a7d11a9ade4",
+    "question": "Bitcoin all time high by June 30, 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782882000,
+    "polymarket_price": 0.0025
+  },
+  {
+    "contract_id": "0x12e1e2026646e8a72b5d1e9d8a731e0cd89b24e2c8ccfcc947659ae3a48b4ae8",
+    "question": "Will the price of Bitcoin be between $70,000 and $72,000 on June 24?",
+    "bet_type": "range",
+    "strike_low": 70000.0,
+    "strike_high": 72000.0,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x5de1816c21d066280c28305f4f416ccec40fa1499c42dabf19d3d168aa01cddd",
+    "question": "Will the price of Bitcoin be less than $56,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.0195
+  },
+  {
+    "contract_id": "0x353f792ac2194abfe69bb9abc6ef874fe8bc0d95d67b2e19fe31e6ad3ca43e9b",
+    "question": "Will the price of Bitcoin be greater than $74,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 74000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.017
+  },
+  {
+    "contract_id": "0x16228a5ceb653274c34d34dc7275daa5300126ee173b4d47ad3124e251094341",
+    "question": "Will the Bitcoin Volatility Index hit 60 by June 30?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 60.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.48
+  },
+  {
+    "contract_id": "0xa2ec2838b297e9f2e5824494222a13ff8127eb753eb11c06f86a1e02a32f25f6",
+    "question": "Will the price of Bitcoin be between $70,000 and $72,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 70000.0,
+    "strike_high": 72000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.005
+  },
+  {
+    "contract_id": "0x0e293a79ae975c84bcc54627b22614ac0d353b7eb7c7e3261b1bf56f88f2baed",
+    "question": "Will the Bitcoin Volatility Index dip to 35 by June 30?",
+    "bet_type": "dip",
+    "strike_low": 35.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.28
+  },
+  {
+    "contract_id": "0x8db332887449f4a3472e50e2072da8e0bd3dd20b0e72beb1f6281f71baf5c78e",
+    "question": "Will the price of Bitcoin be above $62,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 62000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.64
+  },
+  {
+    "contract_id": "0x34352feae03626fa48ee8106c2720975ed444b643e1111b0fa2770ca480da9f9",
+    "question": "Will Bitcoin Dominance hit 70% before 2027?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 70.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.105
+  },
+  {
+    "contract_id": "0xe9b2be76169e8355332ca60c2648400f0918717a69712e22c260e7c04123dd04",
+    "question": "Will the price of Bitcoin be between $56,000 and $58,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 56000.0,
+    "strike_high": 58000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.0245
+  },
+  {
+    "contract_id": "0xb9574fa2589e8358de08d2f04cf6a37c129b0378202b2fabb98e67af357acf98",
+    "question": "Will the price of Bitcoin be above $58,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.952
+  },
+  {
+    "contract_id": "0x89b80e42d59b2fd03f3ee592ab7e0114b2d96beb6fa14ba51cfce53b5f6279df",
+    "question": "Will MicroStrategy announce holding 1M+ BTC by December 31, 2026?-bV81",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.165
+  },
+  {
+    "contract_id": "0xb387705abcb146c91d5ad4d45ec459e5dfd1756a856f9ab8ae780273dc183da2",
+    "question": "Will the price of Bitcoin be between $70,000 and $72,000 on June 29?",
+    "bet_type": "range",
+    "strike_low": 70000.0,
+    "strike_high": 72000.0,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.02
+  },
+  {
+    "contract_id": "0xbeee90b30808ede9829567c9e2bb06f1b86bc05f81bcb1f12da8439e98b38bf3",
+    "question": "Will the price of Bitcoin be above $68,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 68000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.053
+  },
+  {
+    "contract_id": "0xee1aa1ff7165e9f2f3f1222b1d90593bbb20068d392c9bdeed58d5fcedf646a3",
+    "question": "Will the price of Bitcoin be between $64,000 and $66,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 64000.0,
+    "strike_high": 66000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.215
+  },
+  {
+    "contract_id": "0xb43f5a679953f13863e0aa6a71ce63d3d48067fd2305ac500afeb28c6299fb05",
+    "question": "Bitcoin above 63,000 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 63000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.115
+  },
+  {
+    "contract_id": "0x02deb9538f5c123373adaa4ee6217b01745f1662bc902e46ac92f3fe6f8741e8",
+    "question": "Will Bitcoin hit $150k by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 150000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0455
+  },
+  {
+    "contract_id": "0xd369a32ccec26ff9b4d2ee36fff94e60653da869f37b2beebc8fe1eaa06c853e",
+    "question": "Will the price of Bitcoin be above $72,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 72000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x19f0a7d2803418266d19e9fbf84cdac4915943b6338287adc764e7e519750d41",
+    "question": "Will Bitcoin dip to $59,000 on June 23?",
+    "bet_type": "dip",
+    "strike_low": 59000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0015
+  },
+  {
+    "contract_id": "0xbf015b82708ca567e4f417657d3c98ef91374638a29a32ade5974c53714aa609",
+    "question": "Bitcoin Up or Down on June 24?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.655
+  },
+  {
+    "contract_id": "0x8e476262d56f0e18111ef97ba0abee632d0d76a151d7f05fca6ab9da70bb978a",
+    "question": "Will November be the best month for Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.19
+  },
+  {
+    "contract_id": "0xdaa5a703b4cee1fd807158447b40570dcfe9a3cebd17f13d45e71c36f3421fcd",
+    "question": "Will the price of Bitcoin be greater than $72,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 72000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.003
+  },
+  {
+    "contract_id": "0xc422b24fb7256b3d4a93da468db4a3e613f674f990f993d9078a02a5a422fa6a",
+    "question": "Will the price of Bitcoin be above $62,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 62000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.715
+  },
+  {
+    "contract_id": "0x84fdc3f917e34acca874f93d978e84ed0c08969903ddf40a5d65274b3a5b4fdf",
+    "question": "Will Bitcoin reach $75,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 75000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.605
+  },
+  {
+    "contract_id": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2",
+    "question": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 35000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.175
+  },
+  {
+    "contract_id": "0x1a64910584dbbfd3fce0b02579dcab0093bf82f776717fd7306cc2502c0368b6",
+    "question": "Will the price of Bitcoin be above $54,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.981
+  },
+  {
+    "contract_id": "0x6276ac91052375eb2c4b5c15410b0e81d4793b084a76a330d47f2b9e9aab0c0f",
+    "question": "Will the price of Bitcoin be above $66,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 66000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.075
+  },
+  {
+    "contract_id": "0xadebd6bbf401c9509dd2e78b65a16b567f1f386dccd8cac86cd389bb53ec3a58",
+    "question": "Will Bitcoin dip to $55,000 in June?",
+    "bet_type": "dip",
+    "strike_low": 55000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0545
+  },
+  {
+    "contract_id": "0x6992fdf39435fb8aa0b765e24f98cb621fd1f7b6458865387c0ea303da2f0003",
+    "question": "Will Bitcoin dip to $57,500 in June?",
+    "bet_type": "dip",
+    "strike_low": 57500.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.152
+  },
+  {
+    "contract_id": "0x6b7b33110020078d4f4a07f8b7b1c2e622f69a38e79c7aad50a90b003a2a70a7",
+    "question": "Will the price of Bitcoin be above $52,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 52000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.9985
+  },
+  {
+    "contract_id": "0xb91da4c00caad94b86912a9c25b7aca8fd66694cfb036ccfea0a45a7a77096af",
+    "question": "Will the price of Bitcoin be above $60,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.8925
+  },
+  {
+    "contract_id": "0x59ee14e03ccc9d65a0056da27668afcce3e43da3279f82d66d824dd49e4218da",
+    "question": "Will the price of Bitcoin be above $68,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 68000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.042
+  },
+  {
+    "contract_id": "0xb20dafe85e8485eeaf634e51f4bfd7494b995b6261c7cd2d4646e439c2c35321",
+    "question": "Will the price of Bitcoin be above $64,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 64000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.305
+  },
+  {
+    "contract_id": "0x99ffbaf8a9a3e9776dea6cf8425c020efdaab5e58efbf65682c3dfe7c79276a9",
+    "question": "Will the price of Bitcoin be between $60,000 and $62,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 60000.0,
+    "strike_high": 62000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.244
+  },
+  {
+    "contract_id": "0x369ebeb576d93092d365171df6364c33a71d2d9fc67118fd5cfcd258d070b432",
+    "question": "Will the price of Bitcoin be between $72,000 and $74,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 72000.0,
+    "strike_high": 74000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.017
+  },
+  {
+    "contract_id": "0x590733a087d9e14aa053182b38573b22ae45cd257bb11119de537ad5ce44f088",
+    "question": "Will a new country buy Bitcoin by December 31, 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798675200,
+    "polymarket_price": 0.545
+  },
+  {
+    "contract_id": "0x90d9a5a38a8f04d85cffc79003a57070e0c6d848d349e0978457735fdc01b1cb",
+    "question": "Will Bitcoin dip to $58,000 June 22-28?",
+    "bet_type": "dip",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.1
+  },
+  {
+    "contract_id": "0xe5f71c46d7c0975e61c1e12b35c6c7262545919463e265c21bf95877bb545c9f",
+    "question": "Will the price of Bitcoin be above $62,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 62000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.65
+  },
+  {
+    "contract_id": "0xa0f4c4924ea1a8b410b4ce821c2a9955fad21a1b19bdcfde90816732278b3dd5",
+    "question": "Will Bitcoin hit $150k by June 30, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 150000.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0015
+  },
+  {
+    "contract_id": "0xfeb4fd8fccd55c049b7582b156151c038f0e2c392155d375f3d3dca53c5abd93",
+    "question": "Will Bitcoin reach $66,000 on June 23?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 66000.0,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0025
+  },
+  {
+    "contract_id": "0xca7308047069ca39f62b43fccda02cf43f5c3ca86b9b8726b519b444bc216032",
+    "question": "Will the price of Bitcoin be above $70,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 70000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.0015
+  },
+  {
+    "contract_id": "0x571a812a306db7945332f7309676af8d67d6100faaf65c19b1ec0314eebe7f1b",
+    "question": "Will the price of Bitcoin be above $54,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 54000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.997
+  },
+  {
+    "contract_id": "0x322352872b534e7cb1af966764823cef8cc27a63db158e9060e99b6bf6819ef2",
+    "question": "Will the price of Bitcoin be above $66,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 66000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.16
+  },
+  {
+    "contract_id": "0x6311801404db718df312f89e6c1b7e07dbae4e0a193b0030e8380939a26ba9d3",
+    "question": "Bitcoin Up or Down on June 25?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.515
+  },
+  {
+    "contract_id": "0x558fb38ae73d0c612cc5dd5d1436e1d2ca740602e8d24c0f4d24f91bf56ca4c9",
+    "question": "Will Bitcoin reach $68,000 June 22-28?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 68000.0,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.055
+  },
+  {
+    "contract_id": "0xda3a93dd94e86137ce4df45d56eedd1d9f50aa51f9f8efc4b7f75f784e140024",
+    "question": "Will December be the best month for Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.18
+  },
+  {
+    "contract_id": "0xf74a5138901531486976db9561603c89b15ed1751b71ea56956720a5a0968d39",
+    "question": "Will Bitcoin dip to $58,000 on June 23?",
+    "bet_type": "dip",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.002
+  },
+  {
+    "contract_id": "0xced10b751a06031977800ea1a5e778a43bd34f48a20bdd0330f7f6ad59fd5bd3",
+    "question": "Will Bitcoin dip to $50,000 June 22-28?",
+    "bet_type": "dip",
+    "strike_low": 50000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.007
+  },
+  {
+    "contract_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+    "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 100000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.145
+  },
+  {
+    "contract_id": "0xc7fc6e61e344d8ff09e0cd5cde788fa373bbfd2348b58da23d4033c4cd27b895",
+    "question": "Will the price of Bitcoin be between $58,000 and $60,000 on June 24?",
+    "bet_type": "range",
+    "strike_low": 58000.0,
+    "strike_high": 60000.0,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.021
+  },
+  {
+    "contract_id": "0x335ae64f54e14b6aab5b2964fdeb78718ac0b5f030ff3e8b87d30daf9b2ab691",
+    "question": "Will the Bitcoin Volatility Index dip to 30 in 2026?",
+    "bet_type": "dip",
+    "strike_low": 30.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.38
+  },
+  {
+    "contract_id": "0x74c6ad04566e787aa7eb8dfae3a9d3a6189cdab75f464e7748ffa81d9e462e82",
+    "question": "Bitcoin Up or Down - June 24, 12AM ET",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782277200,
+    "polymarket_price": 0.5
+  },
+  {
+    "contract_id": "0xff1c3d8354df9a434cef16ec2b6ebe2831b13c3f767fe752a7bb3722ec838f73",
+    "question": "Will the price of Bitcoin be above $74,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 74000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.004
+  },
+  {
+    "contract_id": "0x125b53cf29181ba1ccf31ce23500718c5a3b46093269a42682aa148c63b77f6d",
+    "question": "Will the price of Bitcoin be above $56,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.991
+  },
+  {
+    "contract_id": "0x9307ab5dd302fef8484dcdd6f4a72d4b31bb39a7ef64ee2663564c68a8cf23b1",
+    "question": "Will the price of Bitcoin be above $62,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 62000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.675
+  },
+  {
+    "contract_id": "0xfa1ac37fbff528774e341abc3dd8c5c55acde5a215a7c44bd88f021740166aea",
+    "question": "Will the price of Bitcoin be between $60,000 and $62,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 60000.0,
+    "strike_high": 62000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.24
+  },
+  {
+    "contract_id": "0xf3233a75da0de4e80c3de26ca3ff74c3c69a7d77f137bf5ff425224574c1db94",
+    "question": "Will Bitcoin replace SHA-256 before 2027?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798675200,
+    "polymarket_price": 0.0485
+  },
+  {
+    "contract_id": "0xac32e73aa9e0dae801d88d4f81efd2ef3fa0f04b815f3a0e74426f0762e668cd",
+    "question": "Will Bitcoin reach $200,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 200000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0175
+  },
+  {
+    "contract_id": "0xb1f20812ffdd6c0da18b00aadb00e8ca5b94e4add419fe0606e702d78b697580",
+    "question": "Will the price of Bitcoin be between $58,000 and $60,000 on June 30?",
+    "bet_type": "range",
+    "strike_low": 58000.0,
+    "strike_high": 60000.0,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.105
+  },
+  {
+    "contract_id": "0x7f7294e64b7953de1a5e467b85b7beff7274af0d0ca1b0eb3cf188466227097b",
+    "question": "Will Bitcoin reach $65,000 on June 23?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 65000.0,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0015
+  },
+  {
+    "contract_id": "0x1239389645c8a73b170b78ef3a83d69b6cf1d2711d412829ea8836660b08fc93",
+    "question": "Will Bitcoin reach $85,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 85000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.325
+  },
+  {
+    "contract_id": "0xbc691aab089e310928d55d356f5de9abe2e7ad71bddeb48070ded5ef94f82951",
+    "question": "Will April be the best month for Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.15
+  },
+  {
+    "contract_id": "0x737857ca82ed28446f52308d06dfe1546932578c9bde5dfe289bcc25e2c72c08",
+    "question": "Will the price of Bitcoin be above $70,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 70000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.006
+  },
+  {
+    "contract_id": "0x692a5c57f98a3936f54d5b040bc13b446405c3b3efd9f59b7fa6624c92bd9f79",
+    "question": "Will the price of Bitcoin be above $60,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.845
+  },
+  {
+    "contract_id": "0xa7d7ed69cfd6107e5e005556730dcf45727c1cdd1001f0378f5e471526181c47",
+    "question": "Will Bitcoin reach $1,000,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 1000000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0155
+  },
+  {
+    "contract_id": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56",
+    "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "bet_type": "dip",
+    "strike_low": 50000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.595
+  },
+  {
+    "contract_id": "0x33d7b1f317c4dfd988f6f6248aff40ab0008bc09d6959ef52ee751f1ee36ca33",
+    "question": "Will the price of Bitcoin be above $72,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 72000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.0135
+  },
+  {
+    "contract_id": "0xae21fa847b3967db56814e68f12739cdb9fb50e41cfbce30d2fa42cf480752ae",
+    "question": "Will the price of Bitcoin be above $52,000 on June 30?",
+    "bet_type": "above",
+    "strike_low": 52000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782835200,
+    "polymarket_price": 0.9935
+  },
+  {
+    "contract_id": "0x6891dc7266781636a4f3f035bd8f710b5746c56ec6bcf695f62ac63dad0ed7c8",
+    "question": "Will the price of Bitcoin be above $66,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 66000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.055
+  },
+  {
+    "contract_id": "0x3dd576df04e3a87a4f4c9b79cd43e88caecde2b22f5793762bc95ebf007bac7f",
+    "question": "Will the price of Bitcoin be above $68,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 68000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.0215
+  },
+  {
+    "contract_id": "0xb6429ba0e418f91c34d3fb98d46896217a675974ac0a8c5fa48f85fa4327aadf",
+    "question": "Will Microstrategy announce a Bitcoin purchase June 23-29?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782792000,
+    "polymarket_price": 0.73
+  },
+  {
+    "contract_id": "0x9a8fb23fc2c025755c535c89e8ef469017cd6ae258a262f6efa35db3e4478fd5",
+    "question": "Will the price of Bitcoin be above $68,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 68000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.007
+  },
+  {
+    "contract_id": "0xfef34ae9c3b9502abe871d24e73aecc2c15879e5c7a942a491dd06af238cdff3",
+    "question": "Will the Bitcoin Volatility Index hit 70 by June 30?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 70.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0165
+  },
+  {
+    "contract_id": "0xd61673fdbb2e2ceeeeb7ec4fbaba10859e59cbb4abc311779c114e18dbadfb1b",
+    "question": "Will Bitcoin dip to $50,000 in June?",
+    "bet_type": "dip",
+    "strike_low": 50000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0165
+  },
+  {
+    "contract_id": "0x1fb22e6945854a952f3fdd71a6efd85bae47b4b8f852340e6ea22ec4a3a69d7e",
+    "question": "Will Bitcoin dip to $52,000 June 22-28?",
+    "bet_type": "dip",
+    "strike_low": 52000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.011
+  },
+  {
+    "contract_id": "0x4b5081a772fea03086e2c09b2c522651401ec47e2f8cdcc9a081f075d27be6b8",
+    "question": "Will Bitcoin kimchi premium hit 8% in 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 8.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.395
+  },
+  {
+    "contract_id": "0xffdc3b996770b6ecea3e6a949e1bea866f080c2673548638590188b541bf4c71",
+    "question": "Will the price of Bitcoin be above $60,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.8655
+  },
+  {
+    "contract_id": "0xa0461eb98267f8c2fdb23926fbfb5ea1d6bb2997213caad84f81cf79f6b1fc90",
+    "question": "Will the price of Bitcoin be above $56,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.986
+  },
+  {
+    "contract_id": "0x5c0d7c74bbf6ef1e0114e6f75514e3360673e15b6542b78a95363a41c24089d3",
+    "question": "Will Anthropic flip BTC by December 31?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798675200,
+    "polymarket_price": 0.69
+  },
+  {
+    "contract_id": "0x1d2ddb42fe39b7183edfff8f5bb924fb5e3274f2df7715aaef979817045fe139",
+    "question": "Will the price of Bitcoin be between $70,000 and $72,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 70000.0,
+    "strike_high": 72000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.0185
+  },
+  {
+    "contract_id": "0x36bc56dcf8720c996ec33fb197b32efae04643ce7e79e93c03e7617049d2f590",
+    "question": "Will the price of Bitcoin be above $56,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.9985
+  },
+  {
+    "contract_id": "0x76ed07c80978fc457e5e30552016e2c7054ec5fb029f7a78a44f2595b2a7e8ce",
+    "question": "Will the price of Bitcoin be between $64,000 and $66,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 64000.0,
+    "strike_high": 66000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.2
+  },
+  {
+    "contract_id": "0x5def2bec6b4db427a840cb7af098810513dc4455d5e0c593f11f45f8d9d19e59",
+    "question": "Will the price of Bitcoin be between $56,000 and $58,000 on June 29?",
+    "bet_type": "range",
+    "strike_low": 56000.0,
+    "strike_high": 58000.0,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.043
+  },
+  {
+    "contract_id": "0xc564e47b7a853f3e52ea7b8e28d69ed99fcb284929364fd0f8024c2bca03ea96",
+    "question": "Will Bitcoin reach $80,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 80000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.475
+  },
+  {
+    "contract_id": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99",
+    "question": "Will Bitcoin dip to $47,500 in June?",
+    "bet_type": "dip",
+    "strike_low": 47500.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0085
+  },
+  {
+    "contract_id": "0x20ecf9b2361cf6234e18b230910a8d6a1ad86999d411929cf0579517985c021f",
+    "question": "Will the price of Bitcoin be above $58,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 58000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.966
+  },
+  {
+    "contract_id": "0x3f3945f8430c75817f53458d129a766248560277db65fae0925e063f14c8347f",
+    "question": "Bitcoin quantum-resistant upgrade implemented in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798736400,
+    "polymarket_price": 0.0545
+  },
+  {
+    "contract_id": "0x4f54d15b49d858ad9af85b71a196c67d06e258c197e986c84081d4fa1c3d3f7d",
+    "question": "Will the price of Bitcoin be greater than $74,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 74000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.004
+  },
+  {
+    "contract_id": "0xccb79d19f91e2eb8e982abe64c1178092daac371ba03752670444d842ad37e32",
+    "question": "Will the price of Bitcoin be between $70,000 and $72,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 70000.0,
+    "strike_high": 72000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.0195
+  },
+  {
+    "contract_id": "0xc6d651e1f7f9fc47f0079c1fba2fc18290cd8a45644f76f73ef7a1ae35f8d65f",
+    "question": "Will Bitcoin dip to $52,500 in June?",
+    "bet_type": "dip",
+    "strike_low": 52500.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0225
+  },
+  {
+    "contract_id": "0x1b521a8b7f6e3ec4a1d02bda3d4ed30ccf64150a9b3a3d197558ad1830c91aff",
+    "question": "Will the price of Bitcoin be above $66,000 on June 25?",
+    "bet_type": "above",
+    "strike_low": 66000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.0235
+  },
+  {
+    "contract_id": "0x99b201a23f4e440b7311c2227db39c27c185145a4b6bc4ff514438dd17cf8b4c",
+    "question": "Will the price of Bitcoin be above $60,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 60000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.973
+  },
+  {
+    "contract_id": "0x76a7b9207af60a5f56597b507a868c93c118e6064503c2c734f17fa353ce194d",
+    "question": "Will the price of Bitcoin be above $74,000 on June 28?",
+    "bet_type": "above",
+    "strike_low": 74000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.013
+  },
+  {
+    "contract_id": "0xf3519e50e99fa353443d45060813453b1b717e463b5b76c306e85e8f5b026116",
+    "question": "Will Bitcoin reach $500,000 by December 31, 2026?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 500000.0,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.0145
+  },
+  {
+    "contract_id": "0xc26c4c52dbd9a662f5fb97f124da2303515c881557dd1856231fd0045625f1c0",
+    "question": "Will October be the best month for Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.19
+  },
+  {
+    "contract_id": "0xa2977abc7deda6e279d1e9b03703e69a745d629662de97a0115f36242a22d73d",
+    "question": "Another S&P 500 Company buys Bitcoin by December 31, 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.2375
+  },
+  {
+    "contract_id": "0x1af96fddaa619e8659e6d128dabbf40363683cb739f23ff2fa85097cd2bfdcdf",
+    "question": "Will the price of Bitcoin be between $68,000 and $70,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 68000.0,
+    "strike_high": 70000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.0265
+  },
+  {
+    "contract_id": "0x99e5c683143a52e9f129ba97bd9d05a44435008296ac5f148735109a215e5c92",
+    "question": "Will Bitcoin reach $75,000 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 75000.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0085
+  },
+  {
+    "contract_id": "0x119b658f7921ee66d590cbb8de189fa1e2f863ecc264919af5c73693388ac665",
+    "question": "Will the price of Bitcoin be between $62,000 and $64,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 62000.0,
+    "strike_high": 64000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.335
+  },
+  {
+    "contract_id": "0x18076e7d0f58a52d3d4f311d0456306edf16d1873cf5eef27d3ff044153e9576",
+    "question": "Bitcoin all time high by December 31, 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.06
+  },
+  {
+    "contract_id": "0xefbdcf81a532057212e537b29c41bea3a2490b67f786e0050cbac59f94f30a45",
+    "question": "Will the price of Bitcoin be between $62,000 and $64,000 on June 25?",
+    "bet_type": "range",
+    "strike_low": 62000.0,
+    "strike_high": 64000.0,
+    "resolution_timestamp": 1782403200,
+    "polymarket_price": 0.485
+  },
+  {
+    "contract_id": "0x0251a57d0be8216aae92336664389aa6e9df29c8938cb6d88675416c24c62c8c",
+    "question": "Will the price of Bitcoin be above $68,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 68000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.012
+  },
+  {
+    "contract_id": "0xe218c84eec40472c7fdc20d13bb7863a8200b5f43ea270026631b7cc8cae8888",
+    "question": "Will the price of Bitcoin be between $64,000 and $66,000 on June 28?",
+    "bet_type": "range",
+    "strike_low": 64000.0,
+    "strike_high": 66000.0,
+    "resolution_timestamp": 1782662400,
+    "polymarket_price": 0.215
+  },
+  {
+    "contract_id": "0xcecfb24be4ea2589ec11196de9306ce6b15392bfb318aa769cac0d7449bf0c88",
+    "question": "Will Bitcoin reach $71,000 on June 23?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 71000.0,
+    "resolution_timestamp": 1782273600,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x2a4d2287d138b91e1027f20bc17866dba062b4c9e8a7047283ec629b7a936a9a",
+    "question": "Will the price of Bitcoin be above $68,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 68000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x233fdc9fa140ab2fc1e948ea8059ad80f5fcb7f5f98cfa4840d28fa67422670d",
+    "question": "Will the price of Bitcoin be above $62,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 62000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.655
+  },
+  {
+    "contract_id": "0x7e1bf23b7d584ecb123dbe4696a77c5b58b710467e6df8a7caa23241e59cff58",
+    "question": "Will the price of Bitcoin be above $56,000 on June 29?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782748800,
+    "polymarket_price": 0.9865
+  },
+  {
+    "contract_id": "0x54a156359f3c96acaaf7bee14434235bf9ed626e2abd294fae7058535a54f429",
+    "question": "Bitcoin Up or Down - June 23, 8PM ET",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.735
+  },
+  {
+    "contract_id": "0xd907967b10067f709754acfed22aad75f08b5e0925f5a2fef8d27a810911da87",
+    "question": "Bitcoin above 64,000 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 64000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.025
+  },
+  {
+    "contract_id": "0x5b5ed6420bfc643d444cd625a99bd844e1c57c4a27ccdfcbbd15b2e27fb1835b",
+    "question": "Bitcoin above 64,200 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 64200.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.025
+  },
+  {
+    "contract_id": "0x7fae28144c226d2fe892d783b38885cdde4362ab3e430c5b248614f0730c7e8f",
+    "question": "Bitcoin above 64,400 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 64400.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.025
+  },
+  {
+    "contract_id": "0x648f8b89d5739811103ab511e93f2acd04359a7ff6dc1b868c3af49cccc9738e",
+    "question": "Bitcoin above 64,600 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 64600.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.025
+  },
+  {
+    "contract_id": "0xe9b18d2b93a91b363750a17c569ab7a21f6e17dfe85f416aaeabc76437c86b62",
+    "question": "Bitcoin above 61,600 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 61600.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.88
+  },
+  {
+    "contract_id": "0x4b817e7514f4c065bd45e8f4b143cba0059fd8bcb81437dc58757a19d151037d",
+    "question": "Will Bitcoin reach $72,000 June 22-28?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 72000.0,
+    "resolution_timestamp": 1782705600,
+    "polymarket_price": 0.0075
+  },
+  {
+    "contract_id": "0xce6f2c7437b15b808a6be3ea61fc125077e35ce7cc55b66fdbf15f7ce22493ea",
+    "question": "Will Bitcoin reach $70,000 in June?",
+    "bet_type": "reach",
+    "strike_low": null,
+    "strike_high": 70000.0,
+    "resolution_timestamp": 1782878400,
+    "polymarket_price": 0.0305
+  },
+  {
+    "contract_id": "0x05aa263619fad5bfd26d4fd2840ea5173ba8397315d1d7a1dc5979c6d136dedc",
+    "question": "Quantum breaks Bitcoin by December 31, 2027?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1830315600,
+    "polymarket_price": 0.18
+  },
+  {
+    "contract_id": "0x353f8262f94d588eda101229e18dd9d0a78a08c1fe388b387500fef96fc0e875",
+    "question": "Bitcoin above 62,800 on June 23, 9PM ET?",
+    "bet_type": "above",
+    "strike_low": 62800.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782262800,
+    "polymarket_price": 0.585
+  },
+  {
+    "contract_id": "0xf550655ec013b447744b6d5f16e93853c9c59f534b0b3302c3f2a8d701849bc2",
+    "question": "Will the price of Bitcoin be above $56,000 on June 26?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782489600,
+    "polymarket_price": 0.987
+  },
+  {
+    "contract_id": "0x79802a5c6e6e43cd50136c32d11d076b56cbcd98f454762755b39b2cd20f5ab0",
+    "question": "Will the price of Bitcoin be less than $56,000 on June 24?",
+    "bet_type": "above",
+    "strike_low": 56000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782316800,
+    "polymarket_price": 0.0005
+  },
+  {
+    "contract_id": "0x402652b2fa24b838136d13066d44770040e54e97776f630183e27a38b1ad2dac",
+    "question": "Will the price of Bitcoin be above $72,000 on June 27?",
+    "bet_type": "above",
+    "strike_low": 72000.0,
+    "strike_high": null,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.0125
+  },
+  {
+    "contract_id": "0x5a4fc50ae4b1e38fa14b8a7d3b7cb01bd509f3857e9b4e5f39e0c746804a2696",
+    "question": "Will June be the best month for Bitcoin in 2026?",
+    "bet_type": "above",
+    "strike_low": null,
+    "strike_high": null,
+    "resolution_timestamp": 1798779600,
+    "polymarket_price": 0.01
+  },
+  {
+    "contract_id": "0x5e9cc1544d5680c6dcd0650391f189f23118e10b659010256c35ff09ba0d6022",
+    "question": "Will the price of Bitcoin be between $66,000 and $68,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 66000.0,
+    "strike_high": 68000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.06
+  },
+  {
+    "contract_id": "0xd8db52b1de3660431830950c0b522b5a1ac5e12b129011e41f26ba24723d828b",
+    "question": "Will the price of Bitcoin be between $68,000 and $70,000 on June 27?",
+    "bet_type": "range",
+    "strike_low": 68000.0,
+    "strike_high": 70000.0,
+    "resolution_timestamp": 1782576000,
+    "polymarket_price": 0.025
+  }
+]
