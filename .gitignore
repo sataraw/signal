@@ -3,4 +3,5 @@ data/snapshots/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
-valid_contracts*.json
+valid*.json
+
