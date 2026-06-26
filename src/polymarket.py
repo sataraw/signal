@@ -18,7 +18,7 @@ from schemas import PolymarketContract
 
 def retrieve_btc_price_from_binance(start_time: datetime) -> Optional[float]:
     print(f"JUST FOR TEST USE: Fake BTC price from Binance retrieval for start time: {start_time.isoformat()}")
-    return 62000.0  # Placeholder for actual implementation
+    return 59159.64  # Placeholder for actual implementation
 
 def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
 
@@ -36,9 +36,11 @@ def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
         bet_type = "dip"
     elif "reach" in q_lower or "hit" in q_lower:
         bet_type = "reach"
-    elif "up" in q_lower and "down" in q_lower:
+    elif re.search(r"\bup\b", q_lower) and re.search(r"\bdown\b", q_lower):
         bet_type = "UpDown"
         start_time_str = datetime.fromisoformat(market.get("eventStartTime").replace('Z', '+00:00'))
+    elif "less than" in q_lower or "below" in q_lower or "under" in q_lower:
+        bet_type = "below"
     else:
         bet_type = "above"  # Catch-all for above and up or down TODO: Possible make this more fine grained
         
@@ -55,6 +57,8 @@ def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
     elif bet_type == "dip":
         strike_low = s1
     elif bet_type == "reach":
+        strike_high = s1
+    elif bet_type == "below":
         strike_high = s1
     else:
         strike_low = s1

@@ -42,7 +42,7 @@ class PolymarketContract:
     """A parsed Polymarket BTC price-prediction market."""
     contract_id: str
     question: str
-    bet_type: str                  # "above" | "range" | "reach" | "dip" | "UpDown"
+    bet_type: str                  # "above" | "range" | "reach" | "dip" | "UpDown" | "below"
     strike_low: Optional[float]
     strike_high: Optional[float]
     resolution_timestamp: int      # s epoch
