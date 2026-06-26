@@ -26,6 +26,12 @@ _PRICE_KEYWORDS = (
     "between", "dip to", "reach", "hit", "fall"
 )
 
+MIN_BTC_STRIKE = 1_000
+MAX_BTC_STRIKE = 1_000_000
+
+def _strike_in_band(x: Optional[float]) -> bool:
+    return x is not None and MIN_BTC_STRIKE <= x <= MAX_BTC_STRIKE
+
 def is_btc_price_market(question: str, slug: str) -> bool:
     q = question.lower()
     if not ("btc" in q or "bitcoin" in q or "btc" in slug.lower()):
@@ -101,7 +107,10 @@ def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
             polymarket_price = float(prices[0])
     except (json.JSONDecodeError, ValueError, IndexError):
         pass
-        
+    
+    if not _strike_in_band(strike_low) and not _strike_in_band(strike_high):
+        pass 
+
     # Build contract
     contract = PolymarketContract(
         contract_id=contract_id,
