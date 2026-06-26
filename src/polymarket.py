@@ -16,6 +16,26 @@ from dataclasses import asdict
 
 from schemas import PolymarketContract
 
+_EXCLUDE_TERMS = (
+    "volatility index", "bvol", "bitvol", "vol index",
+    "el salvador", "reserve", "strategic", "etf", "hashrate",
+    "miner", "dominance", "market cap",
+)
+_PRICE_KEYWORDS = (
+    "above", "below", "less than", "greater than",
+    "between", "dip to", "reach", "hit", "fall"
+)
+
+def is_btc_price_market(question: str, slug: str) -> bool:
+    q = question.lower()
+    if not ("btc" in q or "bitcoin" in q or "btc" in slug.lower()):
+        return False
+    if any(t in q for t in _EXCLUDE_TERMS):   # exclude derivative/index/reserve markets
+        return False
+    if not any(k in q for k in _PRICE_KEYWORDS):  # must be a price-level question
+        return False
+    return True
+
 def retrieve_btc_price_from_binance(start_time: datetime) -> Optional[float]:
     print(f"JUST FOR TEST USE: Fake BTC price from Binance retrieval for start time: {start_time.isoformat()}")
     return 59159.64  # Placeholder for actual implementation
@@ -160,7 +180,7 @@ def get_btc_contracts() -> list[PolymarketContract]:
                 continue
 
             # Filter crypto for only BTC tickers
-            if "btc" in question.lower() or "bitcoin" in question.lower() or "btc" in slug:
+            if is_btc_price_market(question, slug):
                 
                 # Check expiration, some contracts didnt get close properly
                 end_date_str = m.get("endDate")
