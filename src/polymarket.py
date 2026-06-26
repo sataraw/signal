@@ -246,5 +246,3 @@ def parse_strike_from_id(question: str, bet_type: str, start_time: Optional[date
             return to_float(fallback.group(1), fallback.group(2)), None
 
     return None, None
-    
-get_btc_contracts()
