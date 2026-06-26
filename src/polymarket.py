@@ -237,9 +237,8 @@ def get_btc_contracts() -> list[PolymarketContract]:
 
 
 def parse_strike_from_id(question: str, bet_type: str, start_time: Optional[datetime] = None) -> tuple[Optional[float], Optional[float]]:
-    """Extract strike(s) from contract ID. (strike, None) for above/reach/dip,
+    """Extract strike(s) from contract ID. (strike, None) for above/reach/dip/below,
     (low, high) for range, (None, None) on failure."""
-    """Extract strike(s) from the market question string using regex."""
     #TODO: Figure out how to handle non-price markets as well as the dynamically given strikes (5, 15, etc.. Up/down markets)
     # Strip commas that are between numbers to make float conversion easy
     clean_q = re.sub(r'(?<=\d),(?=\d)', '', question)
@@ -268,14 +267,9 @@ def parse_strike_from_id(question: str, bet_type: str, start_time: Optional[date
             return None, None 
     else:
         # Matches: "above $68000", "reach $80000", "dip to 25000", "greater than $74000", "hit $150k"
-        pat = r'(?:above|reach|dip to|hit|greater than|less than)\s+\$?([\d\.]+)([kKmMbB]?)'
+        pat = r'(?:above|below|reach|dip to|hit|greater than|less than)\s+\$?([\d\.]+)([kKmMbB]?)'
         match = re.search(pat, clean_q, re.IGNORECASE)
         if match:
             return to_float(match.group(1), match.group(2)), None
-            
-        # Fallback: Just grab the first obvious dollar/money amount if keywords missed
-        fallback = re.search(r'\$\s*([\d\.]+)([kKmMbB]?)', clean_q)
-        if fallback:
-            return to_float(fallback.group(1), fallback.group(2)), None
 
     return None, None
