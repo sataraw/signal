@@ -10,7 +10,7 @@ from dataclasses import asdict
 import re
 import json
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional, Tuple, List
 from dataclasses import asdict
 
@@ -23,7 +23,7 @@ _EXCLUDE_TERMS = (
 )
 _PRICE_KEYWORDS = (
     "above", "below", "less than", "greater than",
-    "between", "dip to", "reach", "hit", "fall"
+    "between", "dip to", "reach", "hit", "fall to", "fall below"
 )
 
 MIN_BTC_STRIKE = 1_000
@@ -173,13 +173,11 @@ def get_btc_contracts() -> list[PolymarketContract]:
         page += 1
         print(f"Scanning page {page}...")
 
-        zero_volume_hit = False
+        MIN_MARKET_VOLUME = 0.0
 
         for m in markets:
             # If volume is 0, we have passed all active trading, no intrest in prematurely opened markets.
-            vol = float(m.get("volume", 0))
-            if vol == 0:
-                zero_volume_hit = True
+            if float(m.get("volume", 0)) < MIN_MARKET_VOLUME:
                 continue 
 
             slug = m.get("slug", "").lower()
@@ -223,15 +221,16 @@ def get_btc_contracts() -> list[PolymarketContract]:
                     #TODO: Decide if we really wanna also keep all non-HFT (Macro) markets
                     valid_contracts.append(parse_market_to_polymarket_contract(m))
 
-        # If we hit zero volume markets on this page, stop paginating completely.
-        if zero_volume_hit:
-            print("Hit zero-volume. Stopping query...")
-            break
-
         params["offset"] += params["limit"]
     
-    with open("valid_btc_markets.json", "w") as f:
-        json.dump([asdict(contract) for contract in valid_contracts], f, indent=2, default=str)
+    fetched_at = datetime.now(timezone.utc)
+    fname = f"valid_btc_markets_{fetched_at:%Y%m%dT%H%M%SZ}.json"
+    with open(fname, "w") as f:
+        json.dump(
+            {"fetched_at": fetched_at.isoformat(),
+            "contracts": [asdict(c) for c in valid_contracts]},
+            f, indent=2, default=str,
+        )
 
     return valid_contracts
 
@@ -267,7 +266,7 @@ def parse_strike_from_id(question: str, bet_type: str, start_time: Optional[date
             return None, None 
     else:
         # Matches: "above $68000", "reach $80000", "dip to 25000", "greater than $74000", "hit $150k"
-        pat = r'(?:above|below|reach|dip to|hit|greater than|less than)\s+\$?([\d\.]+)([kKmMbB]?)'
+        pat = r'(?:above|below|reach|dip to|fall to|fall below|hit|greater than|less than)\s+\$?([\d\.]+)([kKmMbB]?)'
         match = re.search(pat, clean_q, re.IGNORECASE)
         if match:
             return to_float(match.group(1), match.group(2)), None
