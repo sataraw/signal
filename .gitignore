@@ -3,3 +3,5 @@ data/snapshots/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
+valid*.json
+
