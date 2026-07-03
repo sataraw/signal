@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signal"
+version = "0.1.0"
+description = "Polymarket BTC pricing research: Deribit RND pipeline (src) + NPI imprecise-probability pricers (npi_pricing)"
+requires-python = ">=3.11"
+# Dependencies live in requirements.txt (single source of truth for the team env).
+
+[tool.setuptools]
+packages = ["src", "npi_pricing"]
+py-modules = ["config", "schemas"]

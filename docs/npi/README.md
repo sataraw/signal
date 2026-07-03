@@ -69,13 +69,14 @@ bracket. The same recursion *without* absorption gives the **terminal**
 
 ## 3. Quickstart
 
-```bash
-python -m venv .venv && ./.venv/bin/pip install -r requirements.txt
+All commands run from the **repo root** in the shared environment
+(`python -m venv .venv && .venv/bin/pip install -r requirements.txt -e .`):
 
-PYTHONPATH=. ./.venv/bin/python tests/test_npi.py            # 11 tests
-PYTHONPATH=. ./.venv/bin/python -m examples.demo             # synthetic
-PYTHONPATH=. ./.venv/bin/python -m examples.polymarket_btc   # live arbitrage band
-PYTHONPATH=. ./.venv/bin/python -m examples.wedge_test       # live implied-vs-empirical λ
+```bash
+.venv/bin/python -m pytest tests/                  # whole suite (NPI + pipeline)
+.venv/bin/python examples/demo.py                  # synthetic
+.venv/bin/python examples/polymarket_btc.py        # live arbitrage band
+.venv/bin/python examples/wedge_test.py            # live implied-vs-empirical λ
 ```
 
 ```python
@@ -109,13 +110,14 @@ npi_pricing/
   bounds.py          arbitrage_band -> ConfidenceBand (bootstrap + BGK + vol scale)
   wedge.py           Wang transform: implied λ vs empirical λ (wedge_test)
   polymarket.py      fetch/parse live BTC contracts (touch vs terminal)
-  market_data.py     BTC spot + history (Binance)
   data.py            synthetic sample prices
+src/market_data.py   BTC spot + history (Binance) — shared pipeline data layer
 examples/
   demo.py            synthetic end-to-end demo
   polymarket_btc.py  live Polymarket BTC test (arbitrage band)
   wedge_test.py      live implied-vs-empirical wedge test
 tests/test_npi.py    11 tests (incl. a brute-force check of the lattice operator)
+tests/test_ground_truth.py  GBM/MC ground-truth, convergence + coverage tests
 ```
 
 Pure Python + NumPy, runs in a local `.venv`.

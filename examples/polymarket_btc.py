@@ -3,7 +3,7 @@
 For each contract it computes an NPI confidence band (the arbitrage bound) from
 BTC price history and flags any contract whose market price falls outside it.
 
-Run:  PYTHONPATH=. python -m examples.polymarket_btc
+Run:  python examples/polymarket_btc.py   (from the repo root, shared .venv)
 """
 
 from __future__ import annotations
@@ -11,7 +11,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 from npi_pricing.bounds import arbitrage_band
-from npi_pricing.market_data import binance_closes, binance_spot
+from src.market_data import binance_closes, binance_spot
 from npi_pricing.polymarket import fetch_btc_contracts
 
 ALPHA = 0.05          # -> 90% confidence band

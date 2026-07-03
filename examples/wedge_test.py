@@ -8,7 +8,7 @@ and flags contracts whose implied wedge falls OUTSIDE the plausible range —
 i.e. the market price cannot be explained by a normal risk premium given our
 physical estimate.
 
-Run:  PYTHONPATH=. python -m examples.wedge_test
+Run:  python examples/wedge_test.py   (from the repo root, shared .venv)
 """
 
 from __future__ import annotations
@@ -16,7 +16,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 from npi_pricing.bounds import npi_probability
-from npi_pricing.market_data import binance_closes, binance_spot
+from src.market_data import binance_closes, binance_spot
 from npi_pricing.polymarket import fetch_btc_contracts
 from npi_pricing.wedge import EmpiricalWedge, cross_sectional_lambda, wedge_test
 
