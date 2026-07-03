@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import urllib.request
+from datetime import datetime
 
 import numpy as np
 
@@ -34,3 +35,21 @@ def binance_spot(symbol: str = "BTCUSDT") -> float:
     """Current price."""
     raw = _get(f"/api/v3/ticker/price?symbol={symbol}")
     return float(raw["price"])
+
+
+def binance_price_at(when: datetime, symbol: str = "BTCUSDT") -> float | None:
+    """Open of the 1-minute kline starting at ``when`` (tz-aware, UTC).
+
+    Used to recover the strike of Polymarket Up/Down markets (the reference
+    price at window start), which the Polymarket API does not expose.
+    Returns None if Binance has no kline for that minute.
+    """
+    start_ms = int(when.timestamp() * 1000)
+    raw = _get(f"/api/v3/klines?symbol={symbol}&interval=1m&startTime={start_ms}&limit=1")
+    if not raw:
+        return None
+    kline = raw[0]
+    # Guard against Binance returning the next available kline for far-past/future times.
+    if abs(int(kline[0]) - start_ms) > 60_000:
+        return None
+    return float(kline[1])

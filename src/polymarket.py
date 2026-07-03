@@ -15,6 +15,7 @@ from typing import Optional, Tuple, List
 from dataclasses import asdict
 
 from schemas import PolymarketContract
+from src.market_data import binance_price_at
 
 _EXCLUDE_TERMS = (
     "volatility index", "bvol", "bitvol", "vol index",
@@ -43,8 +44,12 @@ def is_btc_price_market(question: str, slug: str) -> bool:
     return True
 
 def retrieve_btc_price_from_binance(start_time: datetime) -> Optional[float]:
-    print(f"JUST FOR TEST USE: Fake BTC price from Binance retrieval for start time: {start_time.isoformat()}")
-    return 59159.64  # Placeholder for actual implementation
+    """BTC price at the Up/Down window start (Binance 1m kline open)."""
+    try:
+        return binance_price_at(start_time)
+    except Exception as e:
+        print(f"Binance price lookup failed for {start_time.isoformat()}: {e}")
+        return None
 
 def parse_market_to_polymarket_contract(market: dict) -> PolymarketContract:
 

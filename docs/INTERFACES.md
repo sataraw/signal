@@ -11,13 +11,14 @@ target with Awar's matching work on `polymarket_data_pull`):
 
 | field | type | meaning |
 |---|---|---|
-| `contract_id` | str | Polymarket market id / slug |
+| `contract_id` | str | Polymarket `conditionId` |
 | `question` | str | raw question text (source of truth for parsing) |
-| `bet_type` | str | `"above"` \| `"range"` \| `"reach"` \| `"dip"` |
-| `strike_low` | float? | strike (Above/Reach/Dip) or lower bound (Range) |
-| `strike_high` | float? | upper bound (Range only) |
+| `bet_type` | str | `"above"` \| `"below"` \| `"range"` \| `"reach"` \| `"dip"` \| `"UpDown"` |
+| `strike_low` | float? | strike (Above/Dip/UpDown) or lower bound (Range) |
+| `strike_high` | float? | strike (Reach/Below) or upper bound (Range) |
 | `resolution_timestamp` | int | s epoch of resolution |
 | `polymarket_price` | float? | YES mid price ∈ [0, 1] |
+| `contract_lifetime` | (datetime, datetime)? | (start, end) — start defines the Up/Down reference window |
 
 The NPI fetcher (`npi_pricing.polymarket.Contract`) uses a different but
 losslessly mappable vocabulary — **path-dependence** is the primary split,
@@ -28,14 +29,18 @@ matching the lattice's two recursions:
 | `reach` | `touch` | True | absorbing barrier |
 | `dip` | `touch` | False | absorbing barrier |
 | `above` | `terminal` | True | no absorption (European digital) |
+| `below` | `terminal` | False | no absorption (European digital) |
 | `range` | `terminal` ×2 | — | P(low ≤ S_T ≤ high) = P(above low) − P(above high) |
+| `UpDown` | `terminal` | True | strike = BTC price at window start (Binance 1m open via `src.market_data.binance_price_at`); horizon in minutes |
 
-**Open item (for Awar):** two Polymarket fetchers exist —
-`src/polymarket.py` (CLOB, M2 stub, unimplemented) and
-`npi_pricing/polymarket.py` (Gamma API, working, richer fields: bid/ask,
-liquidity, volume, endDate). Proposal: implement M2 as a thin adapter that
-returns `schemas.PolymarketContract` built on the Gamma fetcher, rather than a
-parallel CLOB implementation. Decide together with the matching-schema freeze.
+**Fetcher ownership (resolved 2026-07):** `src/polymarket.py` (Awar, Gamma
+API, merged via PR #1) is the canonical fetcher and returns
+`schemas.PolymarketContract`. The older `npi_pricing/polymarket.py` duplicates
+discovery/parsing with a different vocabulary; it should shrink to a thin
+`PolymarketContract -> (kind, up, barrier)` mapper once the NPI examples are
+migrated. Remaining Up/Down caveat: for *live* trading the window-start price
+needs a real-time feed (Chainlink data streams have ~1 min delay — open
+GitHub issue); for research/backtesting the Binance 1m kline is exact.
 
 ## 2. Price history (in)
 
